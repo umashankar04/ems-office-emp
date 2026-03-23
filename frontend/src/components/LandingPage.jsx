@@ -375,11 +375,7 @@ const LandingPage = () => {
 
       <header className="landing-nav">
         <div className="brand-mark">EMS</div>
-        <nav className="landing-nav-links">
-          <a href="#attendance">Attendance</a>
-          <a href="#payroll">Payroll</a>
-          <a href="#reports">Analytics</a>
-        </nav>
+        <nav className="landing-nav-links" />
         <Link className="landing-btn ghost" to="/login" data-magnetic>
           Login
         </Link>
@@ -397,9 +393,6 @@ const LandingPage = () => {
               <Link className="landing-btn" to="/login" data-magnetic>
                 Launch EMS
               </Link>
-              <a className="landing-btn ghost" href="#dashboard" data-magnetic>
-                Explore Platform
-              </a>
             </div>
           </div>
 
@@ -418,83 +411,6 @@ const LandingPage = () => {
               <span>Attendance Pulse</span>
               <strong>Real-time Live Sync</strong>
               <small>Smart leave and work tracking</small>
-            </article>
-          </div>
-        </section>
-
-        <section className="landing-section" id="attendance">
-          <div className="section-intro" data-tilt-card>
-            <h2>Attendance Tracking</h2>
-            <p>
-              Intelligent workday logging with granular slot tracking and
-              seamless leave management for distributed teams.
-            </p>
-          </div>
-          <div className="section-grid two-col">
-            <article className="section-card live-card" data-tilt-card>
-              <h3>Live Presence Feed</h3>
-              <p>Auto-refresh cadence for status, check-ins, and absences.</p>
-            </article>
-            <article className="section-card live-card" data-tilt-card>
-              <h3>Smart Leave Matrix</h3>
-              <p>
-                Visualized leave balances and approvals with instant feedback.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section className="landing-section" id="payroll">
-          <div className="section-intro" data-tilt-card>
-            <h2>Payroll System</h2>
-            <p>
-              Automated payroll generation with dynamic salary breakdowns and
-              monthly history in a polished analytics-first interface.
-            </p>
-          </div>
-          <div className="section-grid two-col">
-            <article className="section-card chart-card" data-tilt-card>
-              <h3>Compensation Curve</h3>
-              <div className="chart-bars" aria-hidden="true">
-                <span style={{ "--h": "68%" }} />
-                <span style={{ "--h": "78%" }} />
-                <span style={{ "--h": "86%" }} />
-                <span style={{ "--h": "72%" }} />
-                <span style={{ "--h": "92%" }} />
-              </div>
-            </article>
-            <article className="section-card chart-card" data-tilt-card>
-              <h3>Run Stability</h3>
-              <div className="chart-line" aria-hidden="true" />
-            </article>
-          </div>
-        </section>
-
-        <section className="landing-section" id="reports">
-          <div className="section-intro" data-tilt-card>
-            <h2>Reports &amp; Analytics</h2>
-            <p>
-              Glass-panel reporting with trend snapshots, custom exports, and
-              decision-grade operational insights.
-            </p>
-          </div>
-          <div className="section-grid">
-            <article className="section-card" data-tilt-card>
-              <h3>Executive Insights</h3>
-              <p>
-                Forecast staffing and payroll risks with data-backed confidence.
-              </p>
-            </article>
-            <article className="section-card" data-tilt-card>
-              <h3>Custom Report Builder</h3>
-              <p>
-                Create focused reports for teams, roles, and performance
-                windows.
-              </p>
-            </article>
-            <article className="section-card" data-tilt-card>
-              <h3>Secure Data Export</h3>
-              <p>Generate clean exports with permission-aware data controls.</p>
             </article>
           </div>
         </section>
